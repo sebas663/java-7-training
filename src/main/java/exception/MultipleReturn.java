@@ -1,6 +1,7 @@
 package exception;
 
 public class MultipleReturn {
+	@SuppressWarnings("finally")
 	int getInt() {
 
 		try {
